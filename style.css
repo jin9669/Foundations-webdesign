@@ -77,3 +77,24 @@ button{
     padding:8px 16px;
     color:white;
 }
+
+h2{
+    font-size:36px;
+    font-weight:1000;
+    font-family:#1F2937;
+text-align:center;
+margin-bottom:60px;
+margin-top:60px;
+}
+
+.body{
+    display:flex;
+    flex-basis:1 1;
+    justify-content: center;
+    gap:50px;
+}
+
+.item{
+    width:200px;
+    flex-wrap:wrap;
+}
