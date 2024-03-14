@@ -1,3 +1,8 @@
+*{
+    font-family:"Verdana", "Times New Roman", sans-serif;
+}
+
+
 body{
     display:flex;
     flex-direction:column;
@@ -97,4 +102,24 @@ margin-top:60px;
 .item{
     width:200px;
     flex-wrap:wrap;
+}
+
+.quote-section{
+    background-color:#E5E7EB;
+}
+
+.quote{ 
+    font-style: italic;
+    font-family:#1F2937;
+    font-size: 36px;
+    padding: 50px;
+    text-align:center;
+}
+
+.quoter{
+    font-size:24px;
+    font-weight:800;
+    margin-left:900px;
+    margin-top:-70px;
+    margin-bottom:100px;
 }
